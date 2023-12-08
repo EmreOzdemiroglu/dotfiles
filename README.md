@@ -1,2 +1,2 @@
 # dotfiles
-My dotfiles from my setups. (Arch/Debian/Windows/MacOS)
+Ready for blazzzzzing fast 🔥⚡🚀💨🔥🏁 dev experience, buckle up!
