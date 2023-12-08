@@ -1,2 +1,2 @@
 # dotfiles
-Ready for blazzzzzing fast 🔥⚡🚀💨🔥🏁 dev experience, buckle up!
+Ready for blazzzzzing fast dev experience, buckle up! 🔥⚡🚀💨🏁
