@@ -24,7 +24,7 @@ vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 vim.keymap.set("i", "<C-c>", "<Esc>")
 
 vim.keymap.set("n", "Q", "<nop>")
-vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww ~/Documents/scripts/tmux-sessionizer<CR>")
+vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww ~/bin/tmux-sessionizer<CR>")
 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
@@ -41,3 +41,6 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
+-- kiwi.nvim keybindings (configured in after/plugin/kiwi.lua)
+-- NOTE: <leader>ww, <leader>wp, <leader>wk, T, and <Tab> are mapped in after/plugin/kiwi.lua
+-- These bindings do not conflict with existing mappings
