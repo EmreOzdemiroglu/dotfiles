@@ -1,8 +1,0 @@
-- Orbstack for Docker
-- Raycast for clipboard, app launcher, snippets and fast ai 
-- Aerospace for window management
-- Ghostty for terminal with tmux and neovim
-- Bear for note taking
-- Brave as web browser
-- Unfortunately whatsapp for messaging
-- Concepts for thinking and learning

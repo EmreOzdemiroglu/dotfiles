@@ -1,10 +1,7 @@
-require("mreative")
-vim.cmd('colorscheme rose-pine')
-vim.o.autoread = true
-    pattern = "*",
-    vim.api.nvim_create_autocmd("CursorHold", {
-    command = "checktime",
-})
-vim.g.netrw_banner = 0
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
 
-
+require("config.options")
+require("config.keymaps")
+require("config.autocmds")
+require("config.lazy")
