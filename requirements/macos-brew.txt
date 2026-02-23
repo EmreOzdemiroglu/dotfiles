@@ -1,0 +1,10 @@
+# Core CLI tools
+fd
+fzf
+git
+make
+node
+npm
+ripgrep
+tmux
+zoxide

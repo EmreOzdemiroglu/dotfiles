@@ -46,3 +46,25 @@ cd ~/dotfiles
 ```
 
 `--prune-all` runs full Docker prune and can remove unrelated image/cache/volume data.
+
+## Fresh macOS (single command)
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/EmreOzdemiroglu/dotfiles/main/bootstrap/macos-bootstrap.sh)
+```
+
+## Fresh macOS (repo already cloned)
+
+```bash
+cd ~/dotfiles
+NVIM_VERSION=0.11.6 INSTALL_ZSH_STACK=1 SET_DEFAULT_SHELL=1 ./scripts/install-macos.sh
+```
+
+## Remote Setup (`mini`, macOS)
+
+Run from your Mac:
+
+```bash
+cd ~/dotfiles
+./scripts/bootstrap-remote-mini.sh --host mini --nvim-version 0.11.6
+```

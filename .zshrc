@@ -1,5 +1,12 @@
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+if [[ -d /opt/homebrew/bin ]]; then
+  export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+fi
+if [[ -d /usr/local/bin ]]; then
+  export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+fi
+export PATH="$HOME/.local/bin:$PATH"
 
 # Theme
 ZSH_THEME="robbyrussell"
