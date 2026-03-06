@@ -60,6 +60,23 @@ cd ~/dotfiles
 NVIM_VERSION=0.11.6 INSTALL_ZSH_STACK=1 SET_DEFAULT_SHELL=1 ./scripts/install-macos.sh
 ```
 
+## Adopt Existing Local Neovim/tmux Config
+
+If you already edit `~/.config/nvim` or `~/.config/tmux/tmux.conf` directly and want this repo to stay updated too, run:
+
+```bash
+cd ~/dotfiles
+./scripts/adopt-local-configs.sh
+```
+
+That imports your current live config into `~/dotfiles`, backs up the old live paths, and then symlinks:
+
+- `~/.config/nvim` -> `~/dotfiles/nvim`
+- `~/.config/tmux/tmux.conf` -> `~/dotfiles/tmux.conf`
+- `~/.tmux.conf` -> `~/.config/tmux/tmux.conf`
+
+After that, edits in your usual Neovim/tmux paths update this repo automatically.
+
 ## Remote Setup (`mini`, macOS)
 
 Run from your Mac:

@@ -11,7 +11,8 @@ return {
       vim.cmd.colorscheme("rose-pine")
     end,
   },
-
+  {
+      "github/copilot.vim"},
   {
     "NickvanDyke/opencode.nvim",
     event = "VeryLazy",

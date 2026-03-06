@@ -21,7 +21,7 @@ map("n", "Q", "<nop>")
 
 map("n", "<C-f>", "<cmd>silent !tmux neww ~/scripts/tmux-sessionizer<CR>")
 map("n", "<leader>f", function()
-  vim.lsp.buf.format()
+	vim.lsp.buf.format()
 end, { desc = "Format buffer" })
 
 map("n", "<C-k>", "<cmd>cnext<CR>zz")
